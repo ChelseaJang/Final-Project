@@ -32,5 +32,5 @@ https://en.wikipedia.org/wiki/Sudoku
     - The number of classic 9×9 Sudoku solution grids is 6,670,903,752,021,072,936,960
 
 **Suggested algorithms for solving sudoku:**
-  https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Sudoku_brute_force
-  https://en.wikipedia.org/wiki/Dancing_Links
+  * https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Sudoku_brute_force
+  * https://en.wikipedia.org/wiki/Dancing_Links
