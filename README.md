@@ -3,7 +3,9 @@
 Repository for final project
 
 **Some introductions to Sudoku:**
+
 https://en.wikipedia.org/wiki/Sudoku
+
 * There are different kinds of Sudoku puzzles
 * **Some variations:**
     - Different grid sizes
@@ -28,3 +30,7 @@ https://en.wikipedia.org/wiki/Sudoku
     - Sudokus with 18 clues and rotational symmetry have been found
     - The maximum number of clues that can be provided while still not rendering a unique solution is four short of a full grid (77)
     - The number of classic 9×9 Sudoku solution grids is 6,670,903,752,021,072,936,960
+
+**Suggested algorithms for solving sudoku:**
+https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Sudoku_brute_force
+https://en.wikipedia.org/wiki/Dancing_Links
