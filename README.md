@@ -40,14 +40,14 @@ I wrote code to solve the sudoku puzzle with no GUI using Visual Studios. This c
 The next goal is to implement the sudoku solver with a user interface to make it feel more comfortable for the user instead of having the user try to enter the values by hand with many chances of mesesing up.
 
 
-*Documentation for the QGridLayout Class:*
+**Website for formatting text in read.me files:**
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
+*Documentation for the QGridLayout Class:*
 http://doc.qt.io/qt-5/qgridlayout.html
 
 *Documentation for the QFormLayout Class:*
-
 http://doc.qt.io/archives/qt-4.8/qformlayout.html
 
 *Documentation of the QVector Class:*
-
 http://doc.qt.io/qt-5/qvector.html
