@@ -5,7 +5,7 @@ std::istream& operator>>(std::istream& in, std::vector<std::vector<int>>& square
 		for (size_t col = 0; col < square.size(); ++col) { // cycle through column values of the respective row (right to left)
 			in >> square[row][col]; // input value into current row and column
 
-									// if fails, default value is 0 (indicates empty)
+			// if fails, default value is 0 (indicates empty)
 			if (in.fail()) { // if the streams is in a failed state, including when the position is empty
 				in.clear(); // clear stream
 				in.ignore();
@@ -39,18 +39,14 @@ bool empty(size_t row, size_t col, const std::vector<std::vector<int>>& check) {
 	return check[row][col] == 0; // is empty if equals 0, default value when a vector is constructed
 }
 
-////////////////////////////////////UPDATE IN HEADER FILE
 bool taken(int i, size_t row_1, size_t col_1, const std::vector<std::vector<int>>& check) {
-	//check grid of nine
-	//int box = grid(row_1, col_1); //remove???
 	/*
 	beginning of box:
 	row: (box/3+1)
 	col: (box%3)*3-1
-	
 	*/
-	//int boxRow = row_1 / 3;
-	//int boxCol = col_1 / 3;
+	
+	// check small subgrid of 9 values
 	for (size_t row = 0; row < 3; ++row) { // cycle through the rows first
 		for (size_t col = 0; col < 3; ++col) { // cycle through column values of the respective row
 			if (check[(row_1 / 3) * 3 + row][(col_1 / 3) * 3 + col] == i) { // if the number we are checking has already been used
@@ -59,7 +55,7 @@ bool taken(int i, size_t row_1, size_t col_1, const std::vector<std::vector<int>
 		}
 	}
 
-	//check column
+	// check columns
 	for (size_t row = 0; row < 9; ++row) { // cycle through the rows first
 		if (check[row][col_1] == i) { // if the number we are checking has already been used
 			return true; // return true, since it has already been used
@@ -67,24 +63,21 @@ bool taken(int i, size_t row_1, size_t col_1, const std::vector<std::vector<int>
 		}
 	}
 
-	//check row
+	// check rows
 	for (size_t col = 0; col < 9; ++col) { // cycle through the rows first
 		if (check[row_1][col] == i) { // if the number we are checking has already been used
 			return true; // return true, since it has already been used
-
 		}
 	}
-
 
 	return false; // number hasn't been used in check, return false
 }
 
 void solveSquare(std::vector<std::vector<int>> square, size_t position) {
-	//size_t size = square.size(); // size of square
 	size_t row = position / 9; // row of current position
 	size_t col = position % 9; // column of current position
 
-	if (position == 9 * 9) { // have finished filling in square
+	if (position == 9 * 9) { // have finished filling in sudoku puzzle
 		counter(true); // increase the solution count
 		std::cout << square; // print the solution square
 	}
