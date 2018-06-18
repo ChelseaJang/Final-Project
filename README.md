@@ -61,6 +61,9 @@ The next goal is to implement the sudoku solver with a user interface to make it
   
 **Documentation of Signals and Slots in Q**
   - http://doc.qt.io/qt-5/signalsandslots.html
+  
+**First video in a series of useful videos on using Qt Creator**
+  - https://www.youtube.com/watch?v=EkjaiDsiM-Q
 
 **Suggestion for accessing items at a certain position on a QFormLayout class object:**
   - https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
