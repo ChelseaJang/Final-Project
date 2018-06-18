@@ -71,7 +71,7 @@ I wrote code to solve the sudoku puzzle with a GUI using Qt Creator. This code i
 
 There are some issues. For example, pressing the "Show Answer" button leads to the loss of entered data if the "Solve Puzzle" hasn't been solved. I would like to solve this in the future. Furthermore, the process is too memory intensive. Thus, leaving the board as all zeros and pushing "Solve Puzzle" makes the program crash. This would also need to be fixed in the future.
 
-I enjoyed how I was able to display several answers in the console version (from the first part). It was very disappointed that I was unable to figure out how to do it in this part. I would like to try to implement it in the future. Then, in cases where multiple solutions are possible, I would be able to display the different solutions sequentitially as well as display the number of solutions that exist (as well as whether there *are* any solutions.
+I enjoyed how I was able to display several answers in the console version (from the first part). It was very disappointed that I was unable to figure out how to do it in this part. I would like to try to implement it in the future. Then, in cases where multiple solutions are possible, I would be able to display the different solutions sequentitially as well as display the number of solutions that exist (as well as whether there ***are*** any solutions).
 
 **Some Websites that helped me in this process:**
   * website I used to generate sudoku puzzles that I plugged into my own widget during debugging:
