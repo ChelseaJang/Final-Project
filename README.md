@@ -36,7 +36,7 @@ https://en.wikipedia.org/wiki/Sudoku
   * https://en.wikipedia.org/wiki/Dancing_Links
 
 
-## My Coding Process for First Part (done with Visual Studios)
+## My Coding Process for First Part (done with Visual Studios 2017)
 I wrote code to solve the sudoku puzzle with no GUI using Visual Studios. This code is in the "Sudoku Console without GUI" file. The code was solved using the brute force method where it starts from the beginning and just tries to solve by plugging in every number possible and backtracking when it runs into an issue. This is done through recursion and by passing by value. This is memory intensive but is the best way I could think of to continue with the code at the time.
 
 The next goal is to implement the sudoku solver with a user interface to make it feel more comfortable for the user instead of having the user try to enter the values by hand with many chances of mesesing up.
@@ -66,7 +66,7 @@ The next goal is to implement the sudoku solver with a user interface to make it
   - https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
 
 
-## My Coding Process for Second Part (done with Qt Creator)
+## My Coding Process for Second Part (done with Qt Creator 4.6.0)
 I wrote code to solve the sudoku puzzle with a GUI using Qt Creator. This code is in the "Sudoku with GUI" file. The code was solved using the brute force method where it starts from the beginning and just tries to solve by plugging in every number possible and backtracking when it runs into an issue. It is basically the code from the first part with a GUI added.
 
 There are some issues. For example, pressing the "Show Answer" button leads to the loss of entered data if the "Solve Puzzle" hasn't been solved. I would like to solve this in the future. Furthermore, the process is too memory intensive. Thus, leaving the board as all zeros and pushing "Solve Puzzle" makes the program crash. This would also need to be fixed in the future.
