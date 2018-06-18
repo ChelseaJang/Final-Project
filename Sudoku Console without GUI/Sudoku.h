@@ -47,13 +47,6 @@ taken checks if a given number is already used in the magic square
 */
 bool taken(int i, size_t row_1, size_t col_1, const std::vector<std::vector<int>>& check);
 
-/**
-checkValid checks if a complete magic square satisfied the proper conditions to a be a solution
-@param check the magic square of type vector<vector<int>> the check is performed on
-@return whether the magic square satisfies the proper conditions to be a solution: true if it satisfies the conditions, false otherwise
-*/
-bool checkValid(const std::vector<std::vector<int>>& check);
-
 //recursive function solveSquare that accepts a std::vector<std::vector<int>> and an index tracking the number of slots already considered in the recursion
 /**
 solveSquare accepts a std::vector<std::vector<int>> and an index tracking the number of slots already considered to solve the magic square through recursion
