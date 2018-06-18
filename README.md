@@ -58,3 +58,6 @@ http://doc.qt.io/qt-5/qspinbox.html
 *Documentation of the QPushButton Class:*
 http://doc.qt.io/qt-5/qpushbutton.html
 
+**Suggestion for accessing items at a certain position on a QFormLayout class object:**
+
+https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
