@@ -36,13 +36,12 @@ https://en.wikipedia.org/wiki/Sudoku
   * https://en.wikipedia.org/wiki/Dancing_Links
 
 
-## My Coding Progress for First Part
+## My Coding Process for First Part (done with Visual Studios)
 I wrote code to solve the sudoku puzzle with no GUI using Visual Studios. This code is in the "Sudoku Console without GUI" file. The code was solved using the brute force method where it starts from the beginning and just tries to solve by plugging in every number possible and backtracking when it runs into an issue. This is done through recursion and by passing by value. This is memory intensive but is the best way I could think of to continue with the code at the time.
 
 The next goal is to implement the sudoku solver with a user interface to make it feel more comfortable for the user instead of having the user try to enter the values by hand with many chances of mesesing up.
 
-## Helpful Websites for Using Qt Creator:
-(I'm using Version 4.6.0)
+## Helpful Websites for Using Qt Creator (I'm using Version 4.6.0):
 
 
 **Documentation for the QGridLayout Class:**
@@ -59,9 +58,28 @@ The next goal is to implement the sudoku solver with a user interface to make it
 
 **Documentation of the QPushButton Class:**
   - http://doc.qt.io/qt-5/qpushbutton.html
+  
+**Documentation of Signals and Slots in Q**
+  - http://doc.qt.io/qt-5/signalsandslots.html
 
 **Suggestion for accessing items at a certain position on a QFormLayout class object:**
   - https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
+
+
+## My Coding Process for Second Part (done with Qt Creator)
+I wrote code to solve the sudoku puzzle with a GUI using Qt Creator. This code is in the "Sudoku with GUI" file. The code was solved using the brute force method where it starts from the beginning and just tries to solve by plugging in every number possible and backtracking when it runs into an issue. It is basically the code from the first part with a GUI added.
+
+There are some issues. For example, pressing the "Show Answer" button leads to the loss of entered data if the "Solve Puzzle" hasn't been solved. I would like to solve this in the future. Furthermore, the process is too memory intensive. Thus, leaving the board as all zeros and pushing "Solve Puzzle" makes the program crash. This would also need to be fixed in the future.
+
+**Some Websites that helped me in this process:**
+  * website I used to generate sudoku puzzles that I plugged into my own widget during debugging:
+    - https://www.websudoku.com/
+  * website that I was trying (and failed) to imitate:
+    - https://www.sudoku-solutions.com/
+    
+**A website/idea that may be useful/interesting to try out in the future:**
+
+https://doc.qt.io/archives/qq/qq10-signalmapper.html
 
 ## Miscellaneous Helful Links
 **Website for formatting text in read.me files:**
