@@ -51,3 +51,10 @@ http://doc.qt.io/archives/qt-4.8/qformlayout.html
 
 *Documentation of the QVector Class:*
 http://doc.qt.io/qt-5/qvector.html
+
+*Documentation of the QSpinBox Class:*
+http://doc.qt.io/qt-5/qspinbox.html
+
+*Documentation of the QPushButton Class:*
+http://doc.qt.io/qt-5/qpushbutton.html
+
