@@ -41,23 +41,23 @@ The next goal is to implement the sudoku solver with a user interface to make it
 
 
 **Website for formatting text in read.me files:**
-https://help.github.com/articles/basic-writing-and-formatting-syntax/
+- https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 *Documentation for the QGridLayout Class:*
-http://doc.qt.io/qt-5/qgridlayout.html
+- http://doc.qt.io/qt-5/qgridlayout.html
 
 *Documentation for the QFormLayout Class:*
-http://doc.qt.io/archives/qt-4.8/qformlayout.html
+- http://doc.qt.io/archives/qt-4.8/qformlayout.html
 
 *Documentation of the QVector Class:*
-http://doc.qt.io/qt-5/qvector.html
+- http://doc.qt.io/qt-5/qvector.html
 
 *Documentation of the QSpinBox Class:*
-http://doc.qt.io/qt-5/qspinbox.html
+- http://doc.qt.io/qt-5/qspinbox.html
 
 *Documentation of the QPushButton Class:*
-http://doc.qt.io/qt-5/qpushbutton.html
+- http://doc.qt.io/qt-5/qpushbutton.html
 
 **Suggestion for accessing items at a certain position on a QFormLayout class object:**
 
-https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
+- https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
