@@ -86,6 +86,6 @@ https://doc.qt.io/archives/qq/qq10-signalmapper.html
 ## Miscellaneous Helful Links
 **Website for formatting text in read.me files:**
   * https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
 **Website for vector class:**
   * http://www.cplusplus.com/reference/vector/vector/
-
