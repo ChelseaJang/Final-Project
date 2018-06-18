@@ -2,7 +2,7 @@
 
 Repository for final project
 
-**Some introductions to Sudoku:**
+## **Some introductions to Sudoku:**
 
 https://en.wikipedia.org/wiki/Sudoku
 
@@ -35,29 +35,34 @@ https://en.wikipedia.org/wiki/Sudoku
   * https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Sudoku_brute_force
   * https://en.wikipedia.org/wiki/Dancing_Links
 
+
+## My Coding Progress for First Part
 I wrote code to solve the sudoku puzzle with no GUI using Visual Studios. This code is in the "Sudoku Console without GUI" file. The code was solved using the brute force method where it starts from the beginning and just tries to solve by plugging in every number possible and backtracking when it runs into an issue. This is done through recursion and by passing by value. This is memory intensive but is the best way I could think of to continue with the code at the time.
 
 The next goal is to implement the sudoku solver with a user interface to make it feel more comfortable for the user instead of having the user try to enter the values by hand with many chances of mesesing up.
 
+## Helpful Websites for Using Qt Creator:
+(I'm using Version 4.6.0)
 
-**Website for formatting text in read.me files:**
-- https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
-*Documentation for the QGridLayout Class:*
-- http://doc.qt.io/qt-5/qgridlayout.html
+**Documentation for the QGridLayout Class:**
+  - http://doc.qt.io/qt-5/qgridlayout.html
 
-*Documentation for the QFormLayout Class:*
-- http://doc.qt.io/archives/qt-4.8/qformlayout.html
+**Documentation for the QFormLayout Class:**
+  - http://doc.qt.io/archives/qt-4.8/qformlayout.html
 
-*Documentation of the QVector Class:*
-- http://doc.qt.io/qt-5/qvector.html
+**Documentation of the QVector Class:**
+  - http://doc.qt.io/qt-5/qvector.html
 
-*Documentation of the QSpinBox Class:*
-- http://doc.qt.io/qt-5/qspinbox.html
+**Documentation of the QSpinBox Class:**
+  - http://doc.qt.io/qt-5/qspinbox.html
 
-*Documentation of the QPushButton Class:*
-- http://doc.qt.io/qt-5/qpushbutton.html
+**Documentation of the QPushButton Class:**
+  - http://doc.qt.io/qt-5/qpushbutton.html
 
 **Suggestion for accessing items at a certain position on a QFormLayout class object:**
+  - https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
 
-- https://stackoverflow.com/questions/25574802/qt-qgridlayout-access-element-at-coordinates
+## Miscellaneous Helful Links
+**Website for formatting text in read.me files:**
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
